@@ -1,0 +1,14 @@
+Place ici les 7 exports Metabase, renommés ainsi :
+  ventes_boutique_mois.csv   (table Order : Store ID, Store Name, Created At: Mois, Nombre, Somme de Price, Valeurs distinctes de User ID)
+  boutiques.csv              (table Store : ID, Name, Created At, Status, AddressId, URLs réseaux)
+  adresses.csv               (table Address : ID, City, Zip Code, Longitude, Latitude)
+  produits.csv               (table Product : StoreId, CategoryId, Visible, Nombre, Max de Updated At)
+  categories.csv             (table Category : ID, Name)
+  points_retrait.csv         (points de retrait : ID, AddressId, Store ID, Name)
+  plateforme_mois.csv        (table Order par mois, toute la plateforme)
+Facultatif (volet abonnés, données du scraper) :
+  scraping_producteurs.csv   (dataset-producteurs-data_Casamiam_DS_producteurs)
+  scraping_etat.csv          (dataset-producteurs-data_Casamiam_DS_etat)
+  scraping_evenements.csv    (dataset-producteurs-data_Casamiam_DS_evenements)
+Ces fichiers ne sont jamais publiés (voir .gitignore).
+Pour tester le projet sans données réelles : python demo/generer_donnees_fictives.py

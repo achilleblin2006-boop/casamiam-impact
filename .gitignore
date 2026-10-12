@@ -1,0 +1,11 @@
+# Données réelles de Casamiam : jamais sur GitHub
+data/raw/*
+!data/raw/LISEZ-MOI.txt
+data/processed/*
+!data/processed/.gitkeep
+# Sorties générées localement (refaites par python main.py)
+outputs/*
+!outputs/.gitkeep
+__pycache__/
+.ipynb_checkpoints/
+.venv/
